@@ -28,6 +28,18 @@ export const sidebarLinks: SidebarNavItem[] = [
         authorizeOnly: UserRole.ADMIN,
       },
       {
+        href: "/dashboard/projects",
+        icon: "folder",
+        title: "Projects",
+        authorizeOnly: UserRole.USER,
+      },
+      {
+        href: "/dashboard/animation-studio",
+        icon: "play",
+        title: "Animation Studio",
+        authorizeOnly: UserRole.USER,
+      },
+      {
         href: "#/dashboard/posts",
         icon: "post",
         title: "User Posts",
@@ -51,4 +63,39 @@ export const sidebarLinks: SidebarNavItem[] = [
       },
     ],
   },
-];
+  {
+    title: "ANIMATIONS",
+    items: [
+      {
+        href: "/dashboard/animations/rotate",
+        icon: "rotate",
+        title: "Rotate",
+        authorizeOnly: UserRole.USER,
+      },
+      {
+        href: "/dashboard/animations/scale",
+        icon: "maximize",
+        title: "Scale",
+        authorizeOnly: UserRole.USER,
+      },
+      {
+        href: "/dashboard/animations/translate",
+        icon: "move",
+        title: "Translate",
+        authorizeOnly: UserRole.USER,
+      },
+      {
+        href: "/dashboard/animations/fade",
+        icon: "eye",
+        title: "Fade",
+        authorizeOnly: UserRole.USER,
+      },
+      {
+        href: "/dashboard/animations/color-shift",
+        icon: "palette",
+        title: "Color Shift",
+        authorizeOnly: UserRole.USER,
+      },
+    ],
+  },
+]

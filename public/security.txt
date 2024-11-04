@@ -1,0 +1,7 @@
+# Save as: public/security.txt
+
+Contact: mailto:security@example.com
+Encryption: https://example.com/pgp-key.txt
+Acknowledgments: https://example.com/hall-of-fame
+Policy: https://example.com/security-policy
+Hiring: https://example.com/jobs

@@ -14,6 +14,7 @@
     "isolatedModules": true,
     "jsx": "preserve",
     "incremental": true,
+    "types": ["node"],
     "baseUrl": ".",
     "paths": {
       "@/*": ["./*"],
@@ -32,7 +33,8 @@
     "**/*.tsx",
     ".next/types/**/*.ts",
     ".contentlayer/generated",
-    "contentlayer.config.ts"
+    "contentlayer.config.ts",
+    "components/**/*"
   ],
   "exclude": ["node_modules"]
 }

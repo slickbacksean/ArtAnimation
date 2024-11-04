@@ -1,0 +1,23 @@
+{
+    "common": {
+      "welcome": "Welcome to Animated Image Application",
+      "login": "Log In",
+      "signup": "Sign Up",
+      "logout": "Log Out"
+    },
+    "dashboard": {
+      "title": "Dashboard",
+      "newProject": "New Project",
+      "recentProjects": "Recent Projects"
+    },
+    "animationStudio": {
+      "title": "Animation Studio",
+      "upload": "Upload Image",
+      "animate": "Animate",
+      "export": "Export"
+    },
+    "errors": {
+      "general": "An error occurred. Please try again.",
+      "upload": "Error uploading file. Please try again."
+    }
+  }
